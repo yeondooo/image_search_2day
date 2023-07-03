@@ -30,6 +30,7 @@ class _MainScreenState extends State<MainScreen> {
       body: Column(
         children: [
           TextField(
+            controller: controller,
             decoration: InputDecoration(
               hintText: '이미지를 검색해 보세요',
               suffixIcon: IconButton(
